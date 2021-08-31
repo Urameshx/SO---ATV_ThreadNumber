@@ -8,7 +8,7 @@ public class Thread_controller extends Thread {
 	
 	@Override
 	public void run() {
-		System.out.println("Thread nº:" + getId());
+		System.out.println("Thread no:" + getId());
 	}
 
 }
