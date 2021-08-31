@@ -14,12 +14,7 @@ public class Principal {
 		Thread_controller tc4 = new Thread_controller();
 			tc4.start();
 		Thread_controller tc5 = new Thread_controller();
-			tc5.start();
-		
-		
-		
-		
-		
+			tc5.start();	
 	}
 
 }
