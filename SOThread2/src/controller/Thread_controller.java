@@ -1,8 +1,8 @@
 package controller;
 
-public class Thread_controller extends Thread {
+public class ThreadController extends Thread {
 
-	public Thread_controller() {
+	public ThreadController() {
 		
 	}
 	
