@@ -1,19 +1,19 @@
 package view;
 
-import controller.Thread_controller;
+import controller.ThreadController;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		Thread_controller tc1 = new Thread_controller();
+		ThreadController tc1 = new ThreadController();
 			tc1.start();
-		Thread_controller tc2 = new Thread_controller();
+		ThreadController tc2 = new ThreadController();
 			tc2.start();
-		Thread_controller tc3 = new Thread_controller();
+		ThreadController tc3 = new ThreadController();
 			tc3.start();
-		Thread_controller tc4 = new Thread_controller();
+		ThreadController tc4 = new ThreadController();
 			tc4.start();
-		Thread_controller tc5 = new Thread_controller();
+		ThreadController tc5 = new ThreadController();
 			tc5.start();	
 	}
 
